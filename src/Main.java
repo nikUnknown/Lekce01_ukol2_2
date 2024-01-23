@@ -6,16 +6,16 @@ public class Main {
 
         System.out.println("Prodejci:");
 
-        double prumer1 = prodejce1();
+        double prumer1 = prodejce1(); //proc je takovy zapis?
         System.out.println();
         double prumer2 = prodejce2();
         System.out.println();
 
         double celkovyPrumer = (prumer1 + prumer2) / 2;
-        System.out.println("Celkovy prumer prodane mrkve vsech prodejcu je: " + celkovyPrumer + ".");
+        System.out.println("Celkovy prumer prodane mrkve vsech prodejcu je: " + celkovyPrumer + "ks.");
     }
 
-    public static double prodejce1() {
+    public static double prodejce1() { //proc je tady double?
         String name = "Pavel Novotny";
         LocalDate date = LocalDate.of(1980, 4, 12);
         int agreement = 2;
@@ -37,7 +37,7 @@ public class Main {
         System.out.println("IP adresa verze 4: " + ip + ".");
         System.out.println("Prumerne mnozstvi prodane mrkve na jednu smlouvu je: " + prumer + "ks.");
 
-        return prumer;
+        return prumer; //proc je tady return prumer?
     }
 
     public static double prodejce2() {
