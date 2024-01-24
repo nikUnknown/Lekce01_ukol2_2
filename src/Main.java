@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("Prodejci:");
 
-        double prumer1 = prodejce1(); //proc je takovy zapis?
+        double prumer1 = prodejce1();
         System.out.println();
         double prumer2 = prodejce2();
         System.out.println();
@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Celkovy prumer prodane mrkve vsech prodejcu je: " + celkovyPrumer + "ks.");
     }
 
-    public static double prodejce1() { //proc je tady double?
+    public static double prodejce1() {
         String name = "Pavel Novotny";
         LocalDate date = LocalDate.of(1980, 4, 12);
         int agreement = 2;
